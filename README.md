@@ -1,13 +1,13 @@
 # Fair benchmarks for golang JSON libs 
 ```
-BenchmarkFair/stable-flavor|insane-json-4      1000	   2081607 ns/op	 617.96 MB/s	    1664 B/op	       8 allocs/op
-BenchmarkFair/stable-flavor|fastjson-4         500	   2445162 ns/op	 526.08 MB/s	   20839 B/op	      20 allocs/op
-BenchmarkFair/stable-flavor|jsonparser-4       50	  33479704 ns/op	  38.42 MB/s	      15 B/op	       0 allocs/op
-BenchmarkFair/stable-flavor|gjson-4            50	  23755202 ns/op	  54.15 MB/s	   21223 B/op	     181 allocs/op
-BenchmarkFair/stable-flavor|go-simplejson-4    30	  50403348 ns/op	  25.52 MB/s	14382211 B/op	  134479 allocs/op
-BenchmarkFair/chaotic-flavor|insane-json-4     20	  72524415 ns/op	   7.56 MB/s	       0 B/op	       0 allocs/op
-BenchmarkFair/chaotic-flavor|fastjson-4        20	  68833467 ns/op	   7.96 MB/s	    1401 B/op	       2 allocs/op
-BenchmarkFair/chaotic-flavor|jsonparser-4      2	 933643754 ns/op	   0.59 MB/s	       0 B/op	       0 allocs/op
-BenchmarkFair/chaotic-flavor|gjson-4           1	1195911707 ns/op	   0.46 MB/s	195482064 B/op	 3259151 allocs/op
-BenchmarkFair/chaotic-flavor|go-simplejson-4   5	 249144470 ns/op	   2.20 MB/s	44908977 B/op	 2535674 allocs/op
+stable-flavor|insane-json-4     1000	   2031230 ns/op	 633.29 MB/s
+stable-flavor|fastjson-4        500	       2308785 ns/op	 557.15 MB/s
+stable-flavor|jsonparser-4      50	       32628135 ns/op	 39.42 MB/s
+stable-flavor|gjson-4           50	       23047809 ns/op	 55.81 MB/s
+stable-flavor|go-simplejson-4   30	       47524008 ns/op	 27.07 MB/s
+chaotic-flavor|insane-json-4    3000	   521958 ns/op	     159.21 MB/s
+chaotic-flavor|fastjson-4       2000	   586540 ns/op	     141.68 MB/s
+chaotic-flavor|jsonparser-4     100	       12841475 ns/op	 6.47 MB/s
+chaotic-flavor|gjson-4          100	       14691591 ns/op	 5.66 MB/s
+chaotic-flavor|go-simplejson-4  200	       5597591 ns/op	 14.85 MB/s
 ```
