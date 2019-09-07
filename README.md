@@ -1,4 +1,4 @@
-# Fair go json benchmarks
+# Fair benchmarks for golang JSON libs 
 ```
 BenchmarkFair/stable-flavor|insane-json-4      1000	   2081607 ns/op	 617.96 MB/s	    1664 B/op	       8 allocs/op
 BenchmarkFair/stable-flavor|fastjson-4         500	   2445162 ns/op	 526.08 MB/s	   20839 B/op	      20 allocs/op
