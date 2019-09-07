@@ -1,4 +1,4 @@
-package insane_json_bench
+package fair_go_json_bench
 
 import (
 	"bufio"
